@@ -100,7 +100,7 @@ $(document).ready(function () {
 })
 ```
 
-```css
+```scss
 // app/javascript/foundation/application.scss
 
 @charset 'utf-8';
@@ -160,7 +160,7 @@ $(document).ready(function () {
 @include motion-ui-animations;
 ```
 
-```css
+```scss
 // app/javascript/foundation/_settings.scss
 
 //  Foundation for Sites Settings
@@ -1082,6 +1082,8 @@ $ rails server
 
 # 結論
 
-此方法善用了 webpacker 提供的功能也讓我們可以設定 scss 檔案。提供了除了使用 `foundation-rails` 外的另一種方式。
+此方法善用了 webpacker 提供的功能也讓我們可以設定 scss 檔案。提供了除了使用 `foundation-rails` 外的另一種方式。
+
+> scss 的部分應該對著 Foundation 官方的更新
 
 * [範例程式](https://github.com/andyyou/rails-webpacker-foundation)
